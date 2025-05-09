@@ -1,0 +1,17 @@
+{
+  "name": "client-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-client": "openapi-generator-cli generate -g typescript-fetch -i ./src/spec/petstore.yaml -o ./generated"
+  },  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.20.0",
+    "typescript": "^5.8.3"
+  }
+}
